@@ -1,0 +1,80 @@
+body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ 
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#2d2d2d;
+    padding:28px 20px;
+    color: white;
+}
+ 
+/* Logo Styling */
+.logo{
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+}
+
+.logo:hover {
+    color:rgb(177, 175, 175);
+    cursor: pointer;
+}
+ 
+ 
+/* Navbar Styling */
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+ 
+.navbar a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+ 
+.navbar a:hover {
+    color:rgb(177, 175, 175);
+    cursor: pointer;
+
+}
+
+.imskjerm2024 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.send {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.epost{
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.therest {
+    color: #4c5920;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,218,201,1) 0%, rgba(148,216,220,1) 100%, rgba(0,212,255,1) 100%);
+}
+
