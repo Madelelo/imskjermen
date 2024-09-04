@@ -64,6 +64,7 @@ body, h1, ul, li, a {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     color: #4c5920;
+    padding-top: 100px;
 
 }
 
@@ -75,6 +76,7 @@ body, h1, ul, li, a {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     color: #4c5920;
+    padding-top: 70px;
 }
 #e-post{
     text-align: center;
@@ -86,5 +88,8 @@ body, h1, ul, li, a {
 .therest {
     color: #4c5920;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,218,201,1) 0%, rgba(148,216,220,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
